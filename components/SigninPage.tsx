@@ -1,4 +1,4 @@
-export default function Signin() {
+export function SigninPage() {
 	return (
 		<div className="h-screen flex justify-center flex-col">
 			<div className="flex justify-center">
@@ -13,7 +13,7 @@ export default function Signin() {
 						<div className="pt-2">
 							<LabelledInput
 								label="Username"
-								placeholder="Vj@gmail.com"
+								placeholder="harkirat@gmail.com"
 							/>
 							<LabelledInput
 								label="Password"
